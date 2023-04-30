@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav class="navbar position-fixed" style="width: 100%;">
+        <a href="index.html"><img src="images/logo3..png" /></a>
+        <div class="nav-link" id="navLink ">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="personality.html">PERSONILITY</a></li>
+          <li><a href="cities.html">CITIES</a></li>
+          <li><a href="favorite spots.html">FAVORITE SPOTS</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>FAVOURITE CITIES</h1>
+    </section>
+
+    <!-- ABOUT CITIES -->
+    <section class="About">
+      <h1>CITIES</h1>
+      <p>Some of my favourite cities are mentioned below</p>
+      <div class="row">
+        <div class="About-sec">
+          <h3>LAHORE</h3>
+          <p>
+            Pakistan's Lahore is the country's second-largest city and
+             is in the Punjab province. The city is frequently referred
+              to as Pakistan's cultural capital because of its extensive
+               cultural heritage. The Badshahi Mosque and the Lahore Fort
+            are two examples of some of the most magnificent Mughal-
+            era structures in Lahore. The city is well-known for its
+             mouthwatering food, especially its spicy street food, which
+             draws foodies from all over the world. Lahore is a must-visit
+            destination for anyone interested in experiencing Pakistan's
+            cultural and historical richness because of its bustling bazaar
+             culture.
+          </p>
+        </div>
+        <div class="About-sec">
+          <h3>KARACHI</h3>
+          <p>
+            Karachi, Pakistan's largest city, can be found on the country's southern coast with a 
+            view of the Arabian Sea. People from all over Pakistan and other nations live and work 
+            in the city, which is known for its multicultural and diverse population.
+            Clifton Beach and Manora Island, two of Pakistan's most stunning beaches, can be found 
+            in Karachi, home to some of Pakistan's most popular tourist attractions. 
+            The city is a foodie's dream because it has a thriving food scene with options
+             from around the world as well as traditional Pakistani fare. In spite of confronting
+              difficulties connected with framework and security, Karachi stays an energetic and dynamic
+            city that draws in guests from around the world because of its rich
+            social legacy and financial significance.
+          </p>
+        </div>
+        <div class="About-sec">
+          <h3>ISLAMABAD</h3>
+          <p>
+            Pakistan's capital, Islamabad, can be found at the foothills of the Margalla Hills in the north of the country. The
+            city was planned during the 1960s by a Greek draftsman and is known for
+            its advanced design and very much arranged format. Islamabad is a center
+            of government movement and home to numerous significant government
+            structures, including the Parliament House and the High Court of
+            Pakistan. The city is likewise a significant place for global
+            strategy, with numerous international safe havens and offices situated there.
+            Islamabad is known for its lovely parks, including the Margalla
+            Slopes Public Park and the Fatima Jinnah Park, which give a
+            serene break from the city's buzzing about.
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- FOOTER -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+        aspernatur molestiae aliquid. Quia similique atque possimus fuga commodi
+        ratione perferendis.<br />
+        Exercitationem illum molestiae laborum quod consequatur? Reprehenderit
+        perferendis molestias tempora?
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+ 
+        <p>Made with<i class="fa fa-heart-o"></i>by Amna</p>
+      </div>
+    </section>
+    <!-------JavaScript for Toggle Menu------->
+    <script>
+      var navLink = document.getElementById("navLink");
+      function showMenu() {
+        navLink.style.right = "0";
+      }
+      function hideMenu() {
+        navLink.style.right = "-200px";
+      }
+    </script>
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
